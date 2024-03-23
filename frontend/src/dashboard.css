@@ -1,0 +1,57 @@
+.dashboard-navigation {
+    background-color: #666666;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dashboard-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.dashboard-menu-separator {
+    margin: 0 10px;
+    border-right: 1px solid #fff; /* Atur garis pemisah */
+    height: 10px; /* Atur tinggi pemisah */
+}
+
+.dashboard-menu-item {
+    margin: 0 10px;
+}
+
+.dashboard-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.dashboard-link:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+
+
+.mobil-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mobil-table th, .mobil-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.mobil-table th {
+    background-color: #f2f2f2;
+}
+
+.mobil-table img {
+    max-width: 100px;
+    max-height: 100px;
+}
